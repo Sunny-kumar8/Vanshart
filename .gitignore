@@ -1,0 +1,23 @@
+# Database SQL dump
+vanshart.sql
+
+# Database Configurations
+admin/includes/dbconnection.php
+agms/admin/includes/dbconnection.php
+agms/includes/dbconnection.php
+
+# Node Modules
+node_modules/
+
+# Python Virtual Environments and Env Files
+major project/.env
+major project/.venv/
+major project/__pycache__/
+*.pyc
+*.pyo
+
+# IDE / OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

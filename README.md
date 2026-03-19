@@ -9,8 +9,7 @@ For security reasons, several sensitive files have been excluded from this repos
 The following files are not included in this repository:
 - The SQL database file (`vanshart.sql`)
 - Database connection files (`dbconnection.php`)
-- Python environment variables (`.env`) for the `major project`
-- Dependencies (`node_modules`, Python virtual environments)
+- Dependencies (`node_modules`)
 
 ---
 
@@ -46,30 +45,4 @@ The original `vanshart.sql` file was ignored as it contains the live data.
 If you are working with the frontend/backend assets that use npm, simply run:
 ```bash
 npm install
-```
-
-### 4. Major Project (Python Backend) Environment Variables
-
-Inside the `major project/` directory, create a `.env` file that contains the environment variables necessary for the Python backend. For example:
-
-**`major project/.env`**
-```env
-# Add your environment variables here
-API_KEY=your_api_key_here
-PORT=5000
-```
-*(Check the Python codebase to see exactly which environment variables are expected.)*
-
-You will also need to recreate the Python virtual environment and install dependencies:
-```bash
-cd "major project"
-python -m venv .venv
-
-# Activate the virtual environment
-# On Windows:
-.venv\Scripts\activate
-# On Mac/Linux:
-# source .venv/bin/activate
-
-pip install -r Requirements.txt
 ```

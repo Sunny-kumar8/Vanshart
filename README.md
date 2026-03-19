@@ -1,6 +1,6 @@
 # Vanshart Website
 
-This repository contains the codebase for the Vanshart website. You can explore the website here: [wooden-handicrafts.com](https://www.wooden-handicrafts.com/) 
+This repository contains the codebase for the Vanshart website. You can explore the website here: [vanshartandexport.com](https://vanshartandexport.com/) 
 
 For security reasons, several sensitive files have been excluded from this repository. If you are cloning or pulling this repository to set it up locally, you will need to recreate these missing files.
 
